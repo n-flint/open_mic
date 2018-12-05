@@ -52,7 +52,6 @@ class OpenMicTest < MiniTest::Test
 
     ali.learn(joke_1)
     ali.learn(joke_2)
-    # binding.pry
 
     assert_equal false, open_mic.repeated_jokes?
 
@@ -60,6 +59,4 @@ class OpenMicTest < MiniTest::Test
 
     assert_equal true, open_mic.repeated_jokes?
   end
-
-
 end

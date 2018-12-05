@@ -24,8 +24,4 @@ class User
     end
    return @joke_sorted_by_id
  end
-
-
-
-
 end

@@ -3,7 +3,6 @@ class OpenMic
               :date,
               :performers
 
-
   def initialize(information_hash)
     @location = information_hash[:location]
     @date = information_hash[:date]
@@ -15,11 +14,5 @@ class OpenMic
   end
 
   def repeated_jokes?
-  
-
   end
-
-
-
-
 end
